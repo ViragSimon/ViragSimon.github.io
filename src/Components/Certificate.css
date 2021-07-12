@@ -1,0 +1,13 @@
+
+  
+
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 50%;
+    height: auto;
+  }

@@ -1,0 +1,19 @@
+.home{
+   align-items: center;
+}
+#schools ul {
+   list-style: none;
+   margin: 10;
+   padding: 10;
+   display: inline-flex
+ }
+ 
+ p{
+
+   font-family: elevon, sans-serif;
+   font-style: normal;
+   background-color: white;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   
+ }

@@ -1,0 +1,98 @@
+@import url("https://use.typekit.net/jmk3xov.css");
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+:root {
+  --dark-bg: rgba(15, 15, 15, 0.95);
+  --spacing: 350px;
+
+  font-family: brandon-grotesque, sans-serif;
+  font-style: normal;
+}
+
+
+main {
+  width: 100vw;
+ 
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  padding: 120px 0px;
+  
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+h1,  h3, h4,small,blockquote {
+  font-family: elevon, sans-serif;
+  font-style: normal;
+  color: white;
+}
+
+
+
+header{
+  font-family: elevon, sans-serif;
+  font-style: normal;
+  color: white;
+}
+h2{
+  font-family: elevon, sans-serif;
+  font-style: normal;
+  color: orange;
+
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+
+  header {
+    background: var(--dark-bg);
+    grid-column: 2 / span 5;
+    padding: 2rem;
+    margin-bottom: var(--spacing);
+  }
+
+  section {
+    grid-column: 2 / 8;
+    padding: 1rem;
+    background: var(--dark-bg);
+    line-height: 1.5;
+    display: inline-block;
+  }
+
+  blockquote {
+    margin: 0;
+    padding: 0;
+    grid-column: 2 / span 9;
+    margin-bottom: var(--spacing);
+    align-items: center;
+  }
+
+  blockquote p {
+    color: black;
+    background-color: white;
+    font-size: 4rem;
+    display: inline;
+    line-height: 1;
+  }
+
+  .space{
+    margin-bottom: var(--spacing);
+  }
+
+  .left {
+    grid-column: 6 / 12;
+    vertical-align: left;
+  }
