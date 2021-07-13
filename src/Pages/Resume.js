@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Space } from './ThreeD/Space';
 import './Style.css';
 import resume from '../Images/Simon Virag CV.pdf';
+import NavbarMenu from '../Components/NavbarMenu';
 
 
 class Resume extends Component {
@@ -20,6 +21,8 @@ class Resume extends Component {
         <canvas id="bg"></canvas> 
         <main>
           <div align='center'>
+          <NavbarMenu/>
+
            <h2>Resume</h2>
     
            

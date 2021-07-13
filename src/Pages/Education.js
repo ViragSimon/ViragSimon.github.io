@@ -8,6 +8,7 @@ import Station3 from '../Images/Certificates/Simon - The Complete Cyber Security
 import Station4 from '../Images/Certificates/Simon - The Complete Cyber Security Course - Volume 4 - End Point Protection  Certificate-2-1.png';
 import { Space } from './ThreeD/Space';
 import './Style.css';
+import NavbarMenu from '../Components/NavbarMenu';
 
 class Education extends Component {
 
@@ -24,6 +25,9 @@ class Education extends Component {
       <canvas id="bg"></canvas> 
       <main>
         <div >
+
+        <NavbarMenu/>
+
           <h2>Education</h2>
 <h3>Education has been my fuel and motivation</h3>
 <p>I always loved school and enjoyed learning new things about our world. </p>

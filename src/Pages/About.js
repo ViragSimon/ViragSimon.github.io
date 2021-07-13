@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { Space } from './ThreeD/Space';
 import './Style.css';
+import './About.css';
+
+import NavbarMenu from '../Components/NavbarMenu';
 
 class About extends Component {
 
@@ -17,10 +20,13 @@ componentDidMount(){
         
       <canvas id="bg"></canvas> 
       <main>
-        <div align='center'>
+      <NavbarMenu/>
+        <div class='about' align='center'>
+      
+
          <h2>About</h2>
-  
-<h3>My name is Simon Istvan Virag
+  <section class="center">
+<h3>My name is Simon Istvan Virag</h3>
 
   I am first years student at Kin's College London studyin MSci computer Science
 <br/>
@@ -44,7 +50,8 @@ Free time:
 In my free time I love travel but more importantly I love to learn. Whenever I have some time that I can spend freely, I love to learn a new skill that I can use.
 
 
-</h3>
+
+</section>
         </div>
         </main>
         </body>

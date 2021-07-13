@@ -32,27 +32,13 @@ import * as THREE from 'three';
 import { Space } from './ThreeD/Space';
 
 import { SkillBar } from 'react-skills';
-import NavbarManu from '../Components/NavbarMenu';
 import NavbarMenu from '../Components/NavbarMenu';
 
-const works = [
-  {
-src: KBC,
-    altText: 'Slide 1',
-    caption: 'Slide 1'
-  },
-  {
-src: Baro,
-    altText: 'Slide 2',
-    caption: 'Slide 2'
-  },
-  {
-src: HSS,
-    altText: 'Slide 3',
-    caption: 'Slide 3'
-  }
-];
-
+import javaButton from '../Images/javabutton.png';
+import lab from '../Images/lab.png';
+import website from '../Images/website.png';
+import datingApp from '../Images/datingapp.png';
+import houseCircuit from '../Images/arduino.png';
 
 
 const items = [
@@ -60,45 +46,37 @@ const items = [
     id: 1,
     header: 'Java Buttons',
     description:
-      'dolor sit amet, consectetur adipiscing elit. Sed tempus nunc et tincidunt lobortis. Aliquam placerat, justo sit amet mattis molestie, ipsum nisi congue turpis, in imperdiet nisi nisl sit amet arcu. Donec euismod eu ante quis elementum. Maecenas commodo erat',
-    image: KBC
+      'A java library that helps create custome shaped button in javafx',
+    image: javaButton
   },
   {
     id: 2,
     header: 'Apparatus Management System',
     description:
-      'in metus quis tempor. Donec at venenatis magna, vel fringilla dui. Curabitur id gravida ipsum. Donec at mollis massa. Nullam metus elit, pret',
-    image: HSS
+      'An application that helps the laboratory managers keep tracck of their stocks and assign lab usage permissions to people ',
+    image: lab
   },
   {
     id: 3,
     header: 'Personal Website',
     description:
-      'condimentum purus, non sagittis massa faucibus id. Sed finibus convallis lectus eu fringilla. Proin lacinia sem vitae nunc consectetur, a faucibus orci ultricie',
-    image: Baro
+      'This website, that aims to show my passion about computer science and technology',
+    image: website
   },
   {
     id: 4,
     header: 'University Dating App',
     description:
-      'condimentum purus, non sagittis massa faucibus id. Sed finibus convallis lectus eu fringilla. Proin lacinia sem vitae nunc consectetur, a faucibus orci ultricie',
-    image: Baro
+      'An app that helps university students to find their partners based on the search criterias',
+    image: datingApp
   },
   {
   id: 5,
   header: ' Automated House Curcuit',
   description:
-    'condimentum purus, non sagittis massa faucibus id. Sed finibus convallis lectus eu fringilla. Proin lacinia sem vitae nunc consectetur, a faucibus orci ultricie',
-  image: Baro
-},
-{
-  id: 6,
-  header: 'Compressed Plasma Gas Gun',
-  description:
-    'condimentum purus, non sagittis massa faucibus id. Sed finibus convallis lectus eu fringilla. Proin lacinia sem vitae nunc consectetur, a faucibus orci ultricie',
-  image: Baro
+    'A small circuit built with arduino and raspberry pi that helps keep track of severeal duties around the house',
+  image: houseCircuit
 }
-
 ];
 
 
@@ -138,21 +116,6 @@ simon2.position.z = -5;
 simon2.position.x = -6;
 
 
-/*function moveCamera() {
-  const t = document.body.getBoundingClientRect().top;
-
-  camera.position.z = t * -0.01;
-  camera.position.x = t * -0.0002;
-  camera.rotation.y = t * -0.0002;
-
-  simon.rotation.y += 0.01;
-  simon.rotation.z += 0.01;
- 
-}
-
-document.body.onscroll = moveCamera;
-moveCamera();*/
-
   }
 
   render() {
@@ -165,7 +128,7 @@ moveCamera();*/
       <body>
       <canvas id="bg"></canvas>  
       <main>
-         <NavbarMenu/>
+        
 
         <div class='home' align='center'>
        
