@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import Home from './Pages/Home';
-import About from './Pages/About';
-import Contact from './Pages/Contact';
-import Education from './Pages/Education';
-import Experience from './Pages/Experience';
-import Projects from './Pages/Projects';
-import Resume from './Pages/Resume';
+import Home from './src/Pages/Home';
+import About from './src/Pages/About';
+import Contact from './src/Pages/Contact';
+import Education from './src/Pages/Education';
+import Experience from './src/Pages/Experience';
+import Projects from './src/Pages/Projects';
+import Resume from './src/Pages/Resume';
 
 
 class App extends Component {
