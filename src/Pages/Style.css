@@ -16,18 +16,7 @@ canvas {
 }
 
 
-main {
-  width: 100vw;
- 
-  z-index: 99;
-  position: absolute;
-  width: 100%;
-  margin: 0px auto;
-  padding: 120px 0px;
-  
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-}
+
 
 h1,  h3, h4,small,blockquote {
   font-family: elevon, sans-serif;

@@ -1,0 +1,77 @@
+.education{
+    text-align: center;
+    align-items: center;
+    align-self: center;
+}
+
+h1{
+    color: gray;
+    text-align: center;
+    align-items: center;
+    
+}
+
+h3{
+    color: black;
+    text-align: center;
+    align-items: center;
+    
+}
+
+h4{
+    color: black;
+    text-align: center;
+    align-items: center;
+    
+}
+
+ul{
+    position: relative;
+    
+    align-items: flex-start;
+    list-style-type: none;
+}
+
+li{
+
+}
+
+
+
+main {
+    width: 100vw;
+   
+    z-index: 99;
+    position: center;
+    width: 100%;
+    margin: 0px auto;
+    padding: 120px 0px;
+    
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .grid {
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-gap: 140px;
+  }
+
+
+  #wrapper {
+    display: flex; 
+    overflow: hidden;
+    width:  100vw;
+    border: 1px solid black;
+}
+#first {
+    width:  40vw;
+    float:left; 
+    border: 1px solid red;
+}
+#second {
+    float:left; 
+    border: 1px solid green;
+}
+  

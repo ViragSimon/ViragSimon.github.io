@@ -11,7 +11,7 @@ class Contact extends Component {
 
   componentDidMount(){
 
-    const scene = Space();
+    //Space();
 
    
   }
@@ -24,8 +24,8 @@ class Contact extends Component {
       </head>
       <body>
       <canvas id="bg"></canvas> 
-      <main>
-      <NavbarMenu/>
+      
+     
         <div class='contact' align='center'>
         
 
@@ -51,7 +51,7 @@ class Contact extends Component {
 </section>
         
         </div>
-        </main>
+        
 
         <script type="module" src="./Pages/ThreeD/Space.js"></script>
         </body>

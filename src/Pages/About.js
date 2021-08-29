@@ -9,7 +9,7 @@ class About extends Component {
 
 componentDidMount(){
 
-  Space();
+  //Space();
 }
 
   render() {
@@ -19,20 +19,20 @@ componentDidMount(){
       <body>
         
       <canvas id="bg"></canvas> 
-      <main>
-      <NavbarMenu/>
-        <div class='about' align='center'>
+      
+      
+        <div class='about' align='center' >
       
 
          <h2>About</h2>
-  <section class="center">
+  <section class="center" align="center">
 <h3>My name is Simon Istvan Virag</h3>
 
-  I am first years student at Kin's College London studyin MSci computer Science
+  <p>I am first years student at Kin's College London studyin MSci computer Science
 <br/>
  Motivation:
 
-  I grew up surrounded by technology; it is fundamental to my childhood and who I am today. My fondest early memories involve sitting with my father, a tank engineer, helping him assemble an JVBT-55A tank from mere nuts and bolts. As we worked, he would explain different parts to me, the mechanics behind the vehicle’s movement, its strengths, flaws, and particularities, all with a reverence for the research and design which led to its being. After years of assembly, from the ground up, our tank went on to be used by the local county’s Search and Rescue for particularly difficult operations. This early experience, so full of hands-on learning and challenge, left me with an immense curiosity about science and technology, as well as a deep appreciation for their power for positive change. 
+I grew up surrounded by technology; it is fundamental to my childhood and who I am today. My fondest early memories involve sitting with my father, a tank engineer, helping him assemble an JVBT-55A tank from mere nuts and bolts. As we worked, he would explain different parts to me, the mechanics behind the vehicle’s movement, its strengths, flaws, and particularities, all with a reverence for the research and design which led to its being. After years of assembly, from the ground up, our tank went on to be used by the local county’s Search and Rescue for particularly difficult operations. This early experience, so full of hands-on learning and challenge, left me with an immense curiosity about science and technology, as well as a deep appreciation for their power for positive change. 
   <br/>
 As I became older, robotics and computers began to interest me more. My secondary school’s robotics team was a particular passion. I was energized by the innovation of the design process, as a younger team member and then later as the leader of my school’s team. Combining software and hardware in efficient, complementary ways also gave me a uniquely comprehensive understanding of robotic technology and brought together my passions for computers and mechanics. 
 <br/>
@@ -48,12 +48,12 @@ This is only the beginning of my university education, and I am still figuring o
 Free time:
 
 In my free time I love travel but more importantly I love to learn. Whenever I have some time that I can spend freely, I love to learn a new skill that I can use.
-
+</p>
 
 
 </section>
         </div>
-        </main>
+       
         </body>
         </html>
     );

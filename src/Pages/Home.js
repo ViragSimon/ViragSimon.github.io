@@ -41,6 +41,7 @@ import datingApp from '../Images/datingapp.png';
 import houseCircuit from '../Images/arduino.png';
 
 
+
 const items = [
   {
     id: 1,
@@ -96,7 +97,7 @@ class Home extends Component {
 
     const scene = Space();
 
-    const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+    
     
     const simonTexture = new THREE.TextureLoader().load(Simon);
 
@@ -105,8 +106,12 @@ const simon2 = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasi
 
 
 
+
+
 scene.add(simon1);
 scene.add(simon2);
+
+
 
 simon1.position.z = -5;
 simon1.position.x = 5;

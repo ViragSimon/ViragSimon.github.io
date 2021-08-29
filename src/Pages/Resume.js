@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
 import { Space } from './ThreeD/Space';
 import './Style.css';
-import resume from '../Images/Simon Virag CV.pdf';
+import resume from '../Images/Simon_Virag_CV.pdf';
 import NavbarMenu from '../Components/NavbarMenu';
+import AllPagesPDFViewer from "../Components/PDFshower.jsx";
+import { Document, Page, pdfjs } from "react-pdf";
 
 
 class Resume extends Component {
 
   componentDidMount(){
 
-    Space();
+    //Space();
   }
   
     render() {
@@ -20,11 +22,16 @@ class Resume extends Component {
           
         <canvas id="bg"></canvas> 
         <main>
-          <div align='center'>
+          <div class='home' align='center'>
           <NavbarMenu/>
 
            <h2>Resume</h2>
     
+           <h4>All Pages</h4>
+      
+        <AllPagesPDFViewer pdf={resume} />
+        
+      
            
 
           </div>
