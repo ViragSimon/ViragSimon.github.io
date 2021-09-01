@@ -36,25 +36,30 @@ const scene = Space();
 
 <div class='space'>
          <section>
-         <ProjectElement name="Personal website" technologies={websiteTech} description="" />
+         <ProjectElement name="Personal website" technologies={websiteTech} 
+         description="This website was created in order to show who I am and things that I love to do. Additionally, to show my background and journey so far " />
          </section>
          </div>
 
 <div class='space'>
          <section>
-         <ProjectElement name="JavaFX Button Library" technologies={buttonTech} description="" />
+         <ProjectElement name="JavaFX Button Library" technologies={buttonTech} 
+         description="I developed a Java Class Library (JCL) for javafx to create polygon shaped buttons for application. This included calculation of coordinates for the polygon, creation of shape of the polygon based on its corner points and rotation of the polygon. Moreover, based on given corner coordinates a unique shaped button can be created and rotated." />
          </section>
          </div>
 
-<div class='sapce'>
+<div class='space'>
           <section>
-         <ProjectElement name="Lab Apparatus Management System " technologies={labTech} description="" />
+         <ProjectElement name="Lab Apparatus Management System " technologies={labTech} 
+         description="As a part of my IB diploma, I was asked to create a system for a chosen client. I did a system for the laboratory manager at my school, so he looks after the chemicals and apparatus for natural sciences. The application/system achived the highest grade in IB." />
          </section>
          </div>
          
+
 <div class='space'>
 <section>
-         <ProjectElement name="Automated House Circuit with Application" technologies={houseTech} description="" />
+         <ProjectElement name="Automated House Circuit with Application" technologies={houseTech} 
+         description="I built a smart house circuit with Arduinos and a Raspberry Pi. The house circuit was bale to work as smoke detector, water plants, adjust tmpreture, close shades based on the amount of sunlight, turn on/off lights and close/open doors on command. For the system I also built a simple application to control it and read particular values with it." />
          </section>
          </div>
         

@@ -46,7 +46,7 @@ class Education extends Component {
 
         <h2>Education</h2>
           <h3>Education has been my fuel and motivation</h3>
-        <p>I always loved school and enjoyed learning new things about our world. </p>
+        <h4>I always loved school and enjoyed learning new things about our world. </h4>
 
 <h3> My educational journey</h3>
 <div class='space'>
@@ -75,7 +75,7 @@ class Education extends Component {
 </div>
 <div id="second">
 
-<img src={KCLbuilding} alt="KCL Strand Campus" />
+<img src={KCLbuilding} alt="KCL Strand Campus" id='schoolimg'/>
    
 </div>
 </div>
@@ -108,7 +108,7 @@ class Education extends Component {
 </div>
 
 <div id="second">
-<img src={MUWCIbuilding} alt="MUWCI Campus" />
+<img src={MUWCIbuilding} alt="MUWCI Campus" id='schoolimg' />
 
 </div>
 </div>
@@ -149,7 +149,7 @@ class Education extends Component {
 </ul>
 </div>
 <div id="second">
-<img src={RFGbuilding} alt="RFG School Building" width='' height=''/>
+<img src={RFGbuilding} alt="RFG School Building" id='schoolimg'/>
 </div>
 
 </div>
@@ -180,12 +180,12 @@ class Education extends Component {
           <h3></h3>
           
 <div class="grid">
-<Certificate alt='Google – Crash Course on Python' src = {Gooogle1}/>
-<Certificate alt='Michingan' src = {Michigan1}/>
-<Certificate alt='StationX 1' src = {Station1}/>
-<Certificate alt='StationX 2' src = {Station2}/>
-<Certificate alt='StationX 3' src = {Station3}/>
-<Certificate alt='StationX 4' src = {Station4}/>
+<Certificate alt='Google – Crash Course on Python' certificate = {Gooogle1}/>
+<Certificate alt='Michingan' certificate = {Michigan1}/>
+<Certificate alt='StationX 1' certificate = {Station1}/>
+<Certificate alt='StationX 2' certificate = {Station2}/>
+<Certificate alt='StationX 3' certificate = {Station3}/>
+<Certificate alt='StationX 4' certificate = {Station4}/>
 </div>
 
 

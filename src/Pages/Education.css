@@ -36,11 +36,11 @@ li{
 color: white;
 }
 
-img {
+#schoolimg {
     max-width: 100%;
     width: 60vw;
     height: 45vw;
-    aspect-ratio: 16/9;
+   
   }
 
 
@@ -58,11 +58,18 @@ main {
   }
 
   .grid {
-    display: grid;
-    overflow: hidden;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    grid-gap: 140px;
+     display: grid;
+  padding: 3rem;
+  grid-template-columns: 300px 1fr;
+  gap: 10rem;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  font: 500 100%/1.5 system-ui;
+    
   }
+
+  
 
 
   #wrapper {
@@ -71,13 +78,11 @@ main {
     width:  100vw;
     
 }
-#first {
+#first{
     width:  40vw;
     float:left; 
- 
 }
-#second {
-    float:left; 
-   
+#second{
+    float:left;  
 }
   
