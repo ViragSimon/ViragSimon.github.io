@@ -23,9 +23,9 @@ componentDidMount(){
         
       <canvas id="bg"></canvas> 
       <main>
-      <NavbarMenu/>
-        <div class='about' align='center' >
       
+        <div class='about' align='center' >
+        <NavbarMenu/>
 
          <h2>About</h2>
   

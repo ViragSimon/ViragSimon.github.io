@@ -26,9 +26,9 @@ class Contact extends Component {
       <canvas id="bg"></canvas> 
       <main>
       
-     <NavbarMenu/>
+     
         <div class='contact' align='center'>
-        
+        <NavbarMenu/>
 
          <h2>You can reach me at these contacts</h2>
          <br/>
