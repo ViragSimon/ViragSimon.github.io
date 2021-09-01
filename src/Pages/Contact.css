@@ -4,5 +4,5 @@
     justify-content: center;
     display: inline;
     inline-size: min-content;
-  
+  width: 100vw;
  }

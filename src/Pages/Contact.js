@@ -11,7 +11,7 @@ class Contact extends Component {
 
   componentDidMount(){
 
-    //Space();
+    const scene = Space();
 
    
   }
@@ -20,19 +20,20 @@ class Contact extends Component {
     return (
       <html>
       <head>
-
+      <title>Contact</title>
       </head>
       <body>
       <canvas id="bg"></canvas> 
+      <main>
       
-     
+     <NavbarMenu/>
         <div class='contact' align='center'>
         
 
          <h2>You can reach me at these contacts</h2>
          <br/>
          <section >
-         <div>    
+         <div >    
          <ReactTextFormat>
      
 <h3>Email: <span data-email="email@span.com">  social.simonv@gmail.com</span></h3>
@@ -52,7 +53,7 @@ class Contact extends Component {
         
         </div>
         
-
+        </main>
         <script type="module" src="./Pages/ThreeD/Space.js"></script>
         </body>
         </html>

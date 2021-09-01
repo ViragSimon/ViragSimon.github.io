@@ -1,6 +1,6 @@
 
 import * as THREE from 'three';
-//import Spaceback from '../Images/Textures/space.jpg'
+import Spaceback from '../../Pages/ThreeD/space.jpg'
 
 
 
@@ -44,13 +44,13 @@ function addStarBlue() {
 
   const [x, y, z] = Array(3)
     .fill()
-    .map(() => THREE.MathUtils.randFloatSpread(100));
+    .map(() => THREE.MathUtils.randFloatSpread(200));
 
   star.position.set(x, y, z);
   scene.add(star);
 }
 
-Array(500).fill().forEach(addStarBlue);
+Array(700).fill().forEach(addStarBlue);
 
 function addStarSilver() {
   const geometry = new THREE.SphereGeometry(0.25, 24, 24);
@@ -59,17 +59,17 @@ function addStarSilver() {
 
   const [x, y, z] = Array(3)
     .fill()
-    .map(() => THREE.MathUtils.randFloatSpread(100));
+    .map(() => THREE.MathUtils.randFloatSpread(200));
 
   star.position.set(x, y, z);
   scene.add(star);
 }
 
-Array(500).fill().forEach(addStarSilver);
+Array(700).fill().forEach(addStarSilver);
 
 // Background
 
-const spaceTexture = new THREE.TextureLoader().load('Spaceback');
+const spaceTexture = new THREE.TextureLoader().load(Spaceback);
 scene.background = spaceTexture;
 
 

@@ -11,7 +11,7 @@ return(
 
 <>
 <div class="container">
-<img  alt={props.alt} src={props.certificate}  width="350" height="250"/>
+<img  alt={props.alt} src={props.certificate}  width="30vw" height="20vw"/>
 </div>
 </>
 );

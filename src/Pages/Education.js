@@ -17,26 +17,31 @@ import RFGlogo from '../Images/Schools/RFGlogo.png'
 
 import { Space } from './ThreeD/Space';
 import './Style.css';
-import './Education.css'
+import './Education.css';
 import {Timeline, TimelineEvent} from 'react-event-timeline';
+import NavbarMenu from '../Components/NavbarMenu';
 
 
 class Education extends Component {
 
     componentDidMount(){
 
-    //Space();
+    const scene = Space();
       }
 
   render() {
     return (
       <html>
-      <head></head>
+      <head>
+      <title>Education</title>
+      </head>
       <body>
       <canvas id="bg"></canvas> 
-  
+  <main>
+    
+    
         <div class="education">
-
+        <NavbarMenu/>
        
 
         <h2>Education</h2>
@@ -44,7 +49,8 @@ class Education extends Component {
         <p>I always loved school and enjoyed learning new things about our world. </p>
 
 <h3> My educational journey</h3>
-
+<div class='space'>
+<section>
 <h1> 2020 – 2024: King's College London</h1>
 
 <h2>Certification/ Degree: MSci Computer Science </h2>
@@ -72,11 +78,13 @@ class Education extends Component {
 <img src={KCLbuilding} alt="KCL Strand Campus" />
    
 </div>
-
+</div>
+</section>
 </div>
 
 
-
+<div class='space'>
+<section>
 <h1> 2018 – 2020: Mahindra United World College of India</h1>
 <h2>Certification/ Degree: International Baccelurate</h2>
 <div id="wrapper">
@@ -104,7 +112,11 @@ class Education extends Component {
 
 </div>
 </div>
+</section>
+</div>
 
+<div class='space'>
+<section>
 <h1> 2013 – 2018: II. Rákóczi Ferenc Secondary School</h1>
 <h2>Certification/ Degree: Hungarian Baccelurate</h2>
 
@@ -137,16 +149,19 @@ class Education extends Component {
 </ul>
 </div>
 <div id="second">
-<img src={RFGbuilding} alt="RFG School Building" />
+<img src={RFGbuilding} alt="RFG School Building" width='' height=''/>
 </div>
 
 </div>
-
-
+</section>
 <h1>I hope this journey never ends!</h1>
+</div>
 
+
+
+<div class='space'>
 <h2>Honours and Awards</h2>
-
+<section>
 <ul> 
   <li> <h4>Google Europe Scholarship for Students with Disabilities 2021</h4></li>
   <li><h4>FIRST Tech Challenge 2019 India – Winning Team Alliance Award</h4></li>
@@ -156,7 +171,8 @@ class Education extends Component {
   <li> <h4>Infósok viadala – International  4th place + Best Video Prize</h4> </li>
   <li> <h4>FIRST Lego League 2016 Hungary – 2nd Prize award</h4></li>
 </ul>
-
+</section>
+</div>
 
 
           <h2>Certificates</h2>
@@ -175,7 +191,7 @@ class Education extends Component {
 
 
         </div>
-    
+        </main>
         </body>
         </html>
     );

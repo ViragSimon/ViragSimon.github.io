@@ -12,14 +12,14 @@ h1{
 }
 
 h3{
-    color: black;
+    color: white;
     text-align: center;
     align-items: center;
     
 }
 
 h4{
-    color: black;
+    color: white;
     text-align: center;
     align-items: center;
     
@@ -32,9 +32,7 @@ ul{
     list-style-type: none;
 }
 
-li{
 
-}
 
 
 
@@ -63,16 +61,16 @@ main {
     display: flex; 
     overflow: hidden;
     width:  100vw;
-    border: 1px solid black;
+   
 }
 #first {
     width:  40vw;
     float:left; 
-    border: 1px solid red;
+    
 }
 #second {
     float:left; 
-    border: 1px solid green;
+   
 }
   
 .description{

@@ -128,15 +128,13 @@ simon2.position.x = -6;
       
       <html>
       <head>
-     
+     <title>Home</title>
      </head>
       <body>
       <canvas id="bg"></canvas>  
       <main>
-        
-
         <div class='home' align='center'>
-       
+        <NavbarMenu/>
 <section class='left'>
         <TypeWriterEffect
         textStyle={{
@@ -184,20 +182,7 @@ simon2.position.x = -6;
             hideCursorAfterText = 'true'
           
           />
-          <br/>
-
-<TypeWriterEffect
-           textStyle={{
-            fontWeight: 500,
-            fontSize: '1.5em',
-          }}
-           startDelay={100}
-           cursorColor="black"
-           text="Height: 1,85 m"
-           typeSpeed={100}
-           hideCursorAfterText = 'true'
-         
-         />
+       
 
 <br/>
 <TypeWriterEffect

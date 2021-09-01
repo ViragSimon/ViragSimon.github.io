@@ -1,6 +1,7 @@
 .about{
     align-items: center;
     text-align: center;
+    width: 100vw;
  }
  #schools ul {
     list-style: none;
@@ -13,7 +14,8 @@
  
     font-family: elevon, sans-serif;
     font-style: normal;
-    background-color: white;
+    background:rgba(15, 15, 15, 0.95);
+    color: white;
     padding-top: 10px;
     padding-bottom: 10px;
     

@@ -12,14 +12,14 @@ h1{
 }
 
 h3{
-    color: black;
+    color: white;
     text-align: center;
     align-items: center;
     
 }
 
 h4{
-    color: black;
+    color: white;
     text-align: center;
     align-items: center;
     
@@ -33,9 +33,15 @@ ul{
 }
 
 li{
-
+color: white;
 }
 
+img {
+    max-width: 100%;
+    width: 60vw;
+    height: 45vw;
+    aspect-ratio: 16/9;
+  }
 
 
 main {
@@ -63,15 +69,15 @@ main {
     display: flex; 
     overflow: hidden;
     width:  100vw;
-    border: 1px solid black;
+    
 }
 #first {
     width:  40vw;
     float:left; 
-    border: 1px solid red;
+ 
 }
 #second {
     float:left; 
-    border: 1px solid green;
+   
 }
   
