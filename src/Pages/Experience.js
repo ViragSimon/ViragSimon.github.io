@@ -78,6 +78,10 @@ componentDidMount(){
         <div align='center' id= "experience">
         <NavbarMenu/>
 
+        <h1> Being updated!</h1>
+      <h1> I am really sorry :( things are being updated that's why you can't see everything or may face some issues </h1>
+      <h1> Come back later :) </h1>
+
           <h2>Experience</h2>
 
          <div class= 'space'>

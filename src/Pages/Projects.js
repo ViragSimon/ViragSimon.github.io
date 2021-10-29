@@ -5,7 +5,15 @@ import './Style.css';
 import './Experience.css';
 import ProjectElement from '../Components/ProjectElement';
 import NavbarMenu from '../Components/NavbarMenu';
+import WebsiteFront from '../Images/Projects/Personal_Website/website.png';
 
+
+
+
+const WebsitePics = [WebsiteFront,];
+const JavaButtonsPics = [];
+const LabPics =[];
+const HouseCircuitPics = [];
 
 const websiteTech=["Javascript", "React","Three.js","VScode"];
 const buttonTech=["Java", "JavaFX","VScode"];
@@ -32,11 +40,16 @@ const scene = Space();
         
         <div align='center'>
         <NavbarMenu/>
+
+        <h1> Being updated!</h1>
+      <h1> I am really sorry :( things are being updated that's why you can't see everything or may face some issues </h1>
+      <h1> Come back later :) </h1>
+
           <h2>Projects</h2>
 
 <div class='space'>
          <section>
-         <ProjectElement name="Personal website" technologies={websiteTech} 
+         <ProjectElement name="Personal website" technologies={websiteTech} pictures={WebsitePics}
          description="This website was created in order to show who I am and things that I love to do. Additionally, to show my background and journey so far " />
          </section>
          </div>

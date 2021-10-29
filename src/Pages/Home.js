@@ -13,6 +13,7 @@ import {Carousel} from '3d-react-carousal';
 import KBC from "../Images/Workplaces/KBC.png"
 import HSS from "../Images/Workplaces/HSS.png"
 import Baro from "../Images/Workplaces/Baro.png"
+import KSC from "../Images/Workplaces/KCL_Rocketry.png"
 
 
 
@@ -34,58 +35,61 @@ import { Space } from './ThreeD/Space';
 import { SkillBar } from 'react-skills';
 import NavbarMenu from '../Components/NavbarMenu';
 
-import javaButton from '../Images/javabutton.png';
-import lab from '../Images/lab.png';
-import website from '../Images/website.png';
-import datingApp from '../Images/datingapp.png';
-import houseCircuit from '../Images/arduino.png';
+//import javaButton from '../Images/javabutton.png';
+// import lab from '../Images/lab.png';
+// import website from '../Images/website.png';
+// import datingApp from '../Images/datingapp.png';
+// import houseCircuit from '../Images/arduino.png';
 
 
 
-const items = [
-  {
-    id: 1,
-    header: 'Java Buttons',
-    description:
-      'A java library that helps create custome shaped button in javafx',
-    image: javaButton
-  },
-  {
-    id: 2,
-    header: 'Apparatus Management System',
-    description:
-      'An application that helps the laboratory managers keep tracck of their stocks and assign lab usage permissions to people ',
-    image: lab
-  },
-  {
-    id: 3,
-    header: 'Personal Website',
-    description:
-      'This website, that aims to show my passion about computer science and technology',
-    image: website
-  },
-  {
-    id: 4,
-    header: 'University Dating App',
-    description:
-      'An app that helps university students to find their partners based on the search criterias',
-    image: datingApp
-  },
-  {
-  id: 5,
-  header: ' Automated House Curcuit',
-  description:
-    'A small circuit built with arduino and raspberry pi that helps keep track of severeal duties around the house',
-  image: houseCircuit
-}
-];
+// const items = [
+//   {
+//     id: 1,
+//     header: 'Java Buttons',
+//     description:
+//       'A java library that helps create custome shaped button in javafx',
+//     image: javaButton
+//   },
+//   {
+//     id: 2,
+//     header: 'Apparatus Management System',
+//     description:
+//       'An application that helps the laboratory managers keep tracck of their stocks and assign lab usage permissions to people ',
+//     image: lab
+//   },
+//   {
+//     id: 3,
+//     header: 'Personal Website',
+//     description:
+//       'This website, that aims to show my passion about computer science and technology',
+//     image: website
+//   },
+//   {
+//     id: 4,
+//     header: 'University Dating App',
+//     description:
+//       'An app that helps university students to find their partners based on the search criterias',
+//     image: datingApp
+//   },
+//   {
+//   id: 5,
+//   header: ' Automated House Curcuit',
+//   description:
+//     'A small circuit built with arduino and raspberry pi that helps keep track of severeal duties around the house',
+//   image: houseCircuit
+// }
+// ];
 
 
 
 let slides = [
   <Slide alt='KBC' title='Technical Associate' place="King's Business Club" certificate={KBC}/>,
   <Slide alt='HSS' title='Student Teacher (Volunteer)' place='UWC Mahindra College' certificate={HSS}/> ,
-  <Slide alt='Baro' title='Search and Rescue (Volunteer)' place='Baron Podmaniczky Association' certificate={Baro}/>  ];
+  <Slide alt='Baro' title='Search and Rescue (Volunteer)' place='Baron Podmaniczky Association' certificate={Baro}/> ,
+  <Slide alt='KSC' title='Sub-commitee ' place='KCL Space Society -  Rocketry Commitee' certificate={KSC}/>  ];
+
+
 
   const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
   const FadeUp = batch(Fade(), Move(), Sticky());
@@ -236,7 +240,7 @@ simon2.position.x = -6;
 <h2>Skills</h2>
 <SkillBar name="Java" level={100} color="orange" duration={30}/>
 <br/>
-<SkillBar name="Python" level={60} color="green" duration={30}/>
+<SkillBar name="Python" level={80} color="green" duration={30}/>
 <br/>
 <SkillBar name="Javascript" level={55} color="pink" duration={30} />
 <br/>
@@ -244,7 +248,7 @@ simon2.position.x = -6;
 <br/>
 <SkillBar name="Flutter" level={80} color="lightblue" duration={30}/>
 <br/>
-<SkillBar name="C++" level={50} color="purple" duration={30}/>
+<SkillBar name="C++" level={70} color="purple" duration={30}/>
 <br/>
 <SkillBar name="SQL" level={100} color="grey" duration={30} labelWidth={100}/>
 </div>
@@ -268,7 +272,7 @@ simon2.position.x = -6;
 </div>
 
 
-<h2>Projects</h2>
+{/* <h2>Projects</h2>
 
 <div class='space'> 
 <CardView
@@ -278,7 +282,7 @@ simon2.position.x = -6;
     imageWidth='600px'
     
   />
-  </div>
+  </div> */}
   
 
         </div>

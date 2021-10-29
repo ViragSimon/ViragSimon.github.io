@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Certificate from '../Components/Certificate';
-import Gooogle1 from '../Images/Certificates/Google Python 1-1.png';
-import Michigan1 from '../Images/Certificates/Michigan 1-1.png';
-import Station1 from '../Images/Certificates/Simon - The Complete Cyber Security Course - Volume 1 - Hackers Exposed  Certificate-2-1.png';
-import Station2 from '../Images/Certificates/Simon - The Complete Cyber Security Course - Volume 2 - Network Security  Certificate-2-1.png';
-import Station3 from '../Images/Certificates/Simon - The Complete Cyber Security Course - Volume 3 - Anonymous Browsing  Certificate-2-1.png';
-import Station4 from '../Images/Certificates/Simon - The Complete Cyber Security Course - Volume 4 - End Point Protection  Certificate-2-1.png';
+// import Certificate from '../Components/Certificate';
+// import Gooogle1 from '../Images/Certificates/Google Python 1-1.png';
+// import Michigan1 from '../Images/Certificates/Michigan 1-1.png';
+// import Station1 from '../Images/Certificates/Simon - The Complete Cyber Security Course - Volume 1 - Hackers Exposed  Certificate-2-1.png';
+// import Station2 from '../Images/Certificates/Simon - The Complete Cyber Security Course - Volume 2 - Network Security  Certificate-2-1.png';
+// import Station3 from '../Images/Certificates/Simon - The Complete Cyber Security Course - Volume 3 - Anonymous Browsing  Certificate-2-1.png';
+// import Station4 from '../Images/Certificates/Simon - The Complete Cyber Security Course - Volume 4 - End Point Protection  Certificate-2-1.png';
 
 import KCLbuilding from '../Images/Schools/KCLbuilding.png'
 import MUWCIbuilding from '../Images/Schools/MUWCIbuilding.png'
@@ -43,6 +43,9 @@ class Education extends Component {
         <div class="education">
         <NavbarMenu/>
        
+      <h1> Being updated!</h1>
+      <h1> I am really sorry :( things are being updated that's why you can't see everything or may face some issues </h1>
+      <h1> Come back later :) </h1>
 
         <h2>Education</h2>
           <h3>Education has been my fuel and motivation</h3>
@@ -180,12 +183,12 @@ class Education extends Component {
           <h3></h3>
           
 <div class="grid">
-<Certificate alt='Google – Crash Course on Python' certificate = {Gooogle1}/>
+{/* <Certificate alt='Google – Crash Course on Python' certificate = {Gooogle1}/>
 <Certificate alt='Michingan' certificate = {Michigan1}/>
 <Certificate alt='StationX 1' certificate = {Station1}/>
 <Certificate alt='StationX 2' certificate = {Station2}/>
 <Certificate alt='StationX 3' certificate = {Station3}/>
-<Certificate alt='StationX 4' certificate = {Station4}/>
+<Certificate alt='StationX 4' certificate = {Station4}/> */}
 </div>
 
 
